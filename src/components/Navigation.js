@@ -16,17 +16,20 @@ const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
+              <a href="#experience" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                Experience
+              </a>
               <a href="#projects" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
                 Projects
-              </a>
-              <a href="#awards" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
-                Awards
               </a>
               <a href="#education" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
                 Education
               </a>
+              <a href="#awards" className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors">
+                Awards
+              </a>
               <a 
-                href="/assets/CV_work_240111.pdf" 
+                href="/assets/Shuyu_Lin_Resume_20250611.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors"
@@ -85,6 +88,9 @@ const Navigation = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
               <a href="#projects" className="block px-3 py-2 text-gray-600 hover:text-gray-900">
                 Projects
+              </a>
+              <a href="#experience" className="block px-3 py-2 text-gray-600 hover:text-gray-900">
+                Experience
               </a>
               <a href="#awards" className="block px-3 py-2 text-gray-600 hover:text-gray-900">
                 Awards

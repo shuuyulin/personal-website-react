@@ -8,8 +8,15 @@ const Footer = () => {
           <p className="mb-2">
             Copyright &copy; {new Date().getFullYear()} Shu-Yu Lin. All rights reserved.
           </p>
-          <p className="text-sm">
+          <p className="text-sm mb-2">
             Built with React & Tailwind CSS. Icons from Bootstrap Icons.
+          </p>
+          <p className="text-xs text-gray-500">
+            Last updated: {new Date().toLocaleDateString('en-US', { 
+              year: 'numeric', 
+              month: 'long', 
+              day: 'numeric' 
+            })}
           </p>
         </div>
       </div>

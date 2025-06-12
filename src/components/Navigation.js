@@ -99,7 +99,7 @@ const Navigation = () => {
                 Education
               </a>
               <a 
-                href="/assets/CV_work_240111.pdf" 
+                href="/assets/Shuyu_Lin_Resume_20250611.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block px-3 py-2 text-gray-600 hover:text-gray-900"
